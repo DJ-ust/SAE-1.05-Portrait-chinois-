@@ -1,0 +1,58 @@
+[
+    {
+        "texte": "car cet animal est un leader naturel ainsi qu'une figure protectrice pour sa meute. Il est également reconnu pour sa curiosité, son esprit ludique et son caractère sauvage",
+        "img": "https://cdn.shopify.com/s/files/1/1780/6469/products/Sticker-Loup-Stylise-Blanc_grande.jpg?v=1571608832",
+        "analogie": "un animal",
+        "valeur_analogie": "le Loup",
+        "id": "1",
+        "lien": "2"
+    },
+    {
+        "texte": ", c'est de mes films préférés : ce film est particulièrement bien écrit et est riche en valeurs et en émotions, je ne veux pas vous spoiler, je vous recommande d'aller voir ce chef-d'oeuvre si ce n'est pas déjà fait",
+        "img": "https://i0.wp.com/www.filmspourenfants.net/wp-content/uploads/2018/04/frere-des-ours-a.jpg?fit=555%2C788&ssl=1",
+        "analogie": "un Film",
+        "valeur_analogie": "'Frère des ours'",
+        "id": "2",
+        "lien": "3"
+    },
+    {
+        "texte": "parce que elle a les particularités de tout figer, de tout arrêter, d'être incroyablement solide et résistante... mais paradoxalement elle représente aussi la nature et sa douceur",
+        "img": "https://image-yatta.animedigitalnetwork.fr/web/3017_584x0.gif",
+        "analogie": "un Élément",
+        "valeur_analogie": "la Glace",
+        "id": "3",
+        "lien": "4"
+    },
+    {
+        "texte": "car c'est le personnage le plus persévérant, en effet ce ninja de Konoha n'ayant aucune prédisposition pour le ninjutsu, s'entraîne nuit et jour pour parfaire son taijutsu (art du corps) et ainsi rivaliser avec les autres ninjas ",
+        "img": "images/deb7f453fa594bccff48a9e9887859b0.jpg",
+        "analogie": "un Personnage de manga",
+        "valeur_analogie": "Rock Lee",
+        "id": "4",
+        "lien": "5"
+    },
+    {
+        "texte": ", les gens ont tendance à ne pas aimer cette saison mais je trouve qu'elle émane une certaine paix comme si tout s'arrêtait, que le temps se figeait, mais il est impossible de capturer un instant d'éternité...",
+        "img": "https://4.bp.blogspot.com/_e8UnOo2PQhY/S4KaUX_uC4I/AAAAAAAAAKM/Z3MPTFtDYQY/s400/Mountain+Cabins+Winter+wallpaper.png",
+        "analogie": "une Saison",
+        "valeur_analogie": "l'Hiver",
+        "id": "5",
+        "lien": "6"
+    },
+    {
+        "texte": "car j'adore son pouvoir, c'est le pouvoir le plus classique, le plus simple et le plus efficace",
+        "img": "https://objectifsmartphone.fr/wp-content/uploads/2020/09/super-mario-galaxy-fire-flower.png",
+        "analogie": "une Plante",
+        "valeur_analogie": "la fleur de feu dans mario ☻",
+        "id": "6",
+        "lien": "7"
+    },
+    {
+        "texte": "car c'est tout simplement incroyable de pouvoir se déplacer d'un point A à un point B en un claquement de doigt, imaginez vous en train de jouer au foot ou au basket avec cette capacité...",
+        "img": "https://edgy.app/wp-content/uploads/2016/09/quantum-teleportation-e1475081722149.webp",
+        "analogie": "un Super-pouvoir",
+        "valeur_analogie": "la Téléportation",
+        "id": "7",
+        "lien": "1"
+    }
+]

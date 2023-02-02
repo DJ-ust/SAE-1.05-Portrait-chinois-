@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-margin: none;
+    font-family: 'Carter One', cursive;;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: 0;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+button img{
+    object-fit: cover;
+    width: 90%;
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+
+
+.card{
+    width: 382px;
+    height: 600px;
+    perspective: 1000px;
+    transition: 1s;
+}
+
+.content-card{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 25px;    
+    transition: all 0.3s ease-out;
+    /* background: rgb(0, 0, 0); */
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.459);
+    /* border: 2px solid grey; */
+}
+
+.glow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-out;
+    border-radius: 25px;
+    mix-blend-mode: hard-light;
+   
+}
+
+.content-card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+    
+}
+.frame{
+    padding: 0px;
+    margin: 0 auto;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 0;
+    border-radius: 25px ;
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    object-fit: cover;  
+    
+}
+
+.texte{
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 10px 30px;
+    font-size: 1.05rem;
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+.media-scroller{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 700vw;
+    height: 100vh;
+
+    scroll-snap-type: x mandatory;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain; */
+
+                                                        /* display: grid;
+                                                        flex-direction: row;
+                                                        justify-content: center;
+                                                        gap: 20%  ;
+                                                        
+                                                        overflow-x: scroll;
+                                                        scroll-snap-type: x mandatory;
+
+                                                        overscroll-behavior-inline: contain ;
+                                                        overflow-x: auto;
+                                                        width: 700vw; */
+    
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0;
+    max-height: 100vh;
+    height: 100vh;
+    padding: 0;
+    max-width: 100%;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  
+
+
+
+}
+
+
+
+.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    scroll-snap-align: center;
+    background: rgb(255, 255, 255);
+    
+}
+
+/* .slide:nth-child(1){background: rgb(206, 160, 160);}
+.slide:nth-child(2){background: rgb(175, 206, 160);}
+.slide:nth-child(3){background: rgb(160, 206, 201);}
+.slide:nth-child(4){background: rgb(204, 206, 160);}
+.slide:nth-child(5){background: rgb(206, 160, 203);}
+.slide:nth-child(6){background: rgb(170, 160, 206);}
+.slide:nth-child(7){background: rgb(201, 206, 160);} */
+
+#myNav{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index:1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myNav img{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 2%;
+    height: auto;
+    cursor: pointer;
+}
+
+#bloc-formulaire{
+    width: 100%;
+    height: 100%;
+    /* background: rgb(221, 165, 165); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fausse-carte{
+    width: 382px;
+    height: 600px;
+    background: white;
+    border-radius: 25px;
+    opacity: 100%;
+}
+
+#titre-menu{
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    font-size: xxx-large;
+}
+
+
+form{
+    height: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 25px;
+    
+}
+
+label{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.input{
+    min-height: 30px;
+    width: 95%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+#sub{
+    width: 100%;
+    height: 100%;
+    background: #89ebba;
+    border-radius: 10px;
+}
+
+#sub:hover{
+    cursor: pointer;
+
+}
+
+#titre-sub{
+    position: absolute;
+    bottom: 60px;width: 200px;
+    height: 50px;
+    bottom: 50px;
+    border-radius: 10px;
+    background: #89ebba;
+    text-align: center;
+    color: aliceblue;
+    z-index: 20;
+}
+
+.image{
+    height: 150px;
+    width: 95%;
+    border-radius: 25px;
+    font-size: x-large;
+}
+
+.argumentation{
+    height: 100px;
+}
+
+#bouton_envoi{
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sidenav prenant tout l'écran (idée initiale de W3schools) */
+/* .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  } */
+
+
+
+  
